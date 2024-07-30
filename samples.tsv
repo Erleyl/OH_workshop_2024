@@ -1,8 +1,7 @@
-|sampleid|path-to-sample|
-|--------|--------------|
-|SCWOH001|$PWD/data/SCWOH001.fastq.gz|
-|SCWOH002|$PWD/data/SCWOH002.fastq.gz|
-|SCWOH003|$PWD/data/SCWOH003.fastq.gz|
-|SCWOH004|$PWD/data/SCWOH004.fastq.gz|
-|SCWOH005|$PWD/data/SCWOH005.fastq.gz|
-|SCWOH006|$PWD/data/SCWOH006.fastq.gz|
+sampleid  path-to-sample
+SCWOH001  $PWD/data/SCWOH001.fastq.gz
+SCWOH002  $PWD/data/SCWOH002.fastq.gz
+SCWOH003  $PWD/data/SCWOH003.fastq.gz
+SCWOH004  $PWD/data/SCWOH004.fastq.gz
+SCWOH005  $PWD/data/SCWOH005.fastq.gz
+SCWOH006  $PWD/data/SCWOH006.fastq.gz
