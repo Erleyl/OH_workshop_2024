@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
+
 """Set up Qiime 2 on Google colab.
 
-Only for Google Colab
+Do not use this on o local machine, especially not as an admin!
 """
 
 import os
@@ -30,12 +32,12 @@ QIIME_YAML_TEMPLATE = (
 if len(sys.argv) == 2:
     version = sys.argv[1]
 else:
-    version = "2024.5"
+    version = "2023.9"
 
 if tuple(float(v) for v in version.split(".")) < (2021, 4):
     pyver = "36"
 else:
-    pyver = "39"
+    pyver = "38"
 
 CONDA = "mamba"
 CONDA_ARGS = ["-q"]
