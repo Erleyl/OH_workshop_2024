@@ -1,6 +1,3 @@
-channels:
-  - conda-forge
-dependencies:
   - python=3.9  # Adjust Python version as needed
   - pip
   - numpy
