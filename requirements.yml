@@ -1,4 +1,4 @@
-  - python=3.9  # Adjust Python version as needed
+  - python=3.12  # Adjust Python version as needed
   - pip
   - numpy
   - pandas
