@@ -1,0 +1,290 @@
+IQ-TREE multicore version 2.0.3 for Mac OS X 64-bit built Dec 19 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Erley-MBP (SSE4.2, 16 GB RAM)
+Command: iqtree -s USUV_nflg_2024May01-mafft.fasta -m MF --alrt 1000 -T 6
+Seed:    972044 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Aug  5 17:13:04 2024
+Kernel:  SSE2 - 6 threads (8 CPU cores detected)
+
+Reading alignment file USUV_nflg_2024May01-mafft.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 181 sequences with 10305 columns, 2850 distinct patterns
+1477 parsimony-informative, 958 singleton sites, 7870 constant sites
+WARNING: Some sequence names are changed as follows:
+MN989418|anatidae_(duck_sp)|it_ac|2018-08-20 -> MN989418|anatidae__duck_sp_|it_ac|2018-08-20
+
+                                                    Gap/Ambiguity  Composition  p-value
+   1  PP104383|culex_pipiens|ita|2023-08-02                 0.00%    passed     99.85%
+   2  PP104384|culex_pipiens|ita|2023-09-22                 3.54%    passed     99.52%
+   3  PP104386|culex_pipiens|ita|2023-09-08                 2.38%    passed     99.22%
+   4  PP104387|sturnus_vulgaris|ita|2023-09-13              0.00%    passed     99.97%
+   5  PP104389|culex_pipiens|ita|2023-09-22                 2.84%    passed     99.47%
+   6  PP104390|columbidae_sp|ita|2023-08-25                 3.65%    passed     99.00%
+   7  PP104391|turdus_merula|ita|2023-09-07                 0.00%    passed     99.91%
+   8  OR921093|culex_pipiens|ita|2023-08-11                 2.53%    passed     99.85%
+   9  OR921096|turdus_merula|ita|2023-09-07                 2.83%    passed     99.71%
+  10  OR921098|columba_palumbus|ita|2023-08-23              1.41%    passed     99.77%
+  11  OR921100|culex_pipiens|ita|2023-09-08                 1.18%    passed     98.12%
+  12  OR921101|culex_pipiens|ita|2023-09-08                 0.59%    passed     99.82%
+  13  OR921103|culex_pipiens|ita|2023-08-11                 0.85%    passed     99.84%
+  14  OR921104|culex_pipiens|ita|2023-09-08                 3.29%    passed     99.99%
+  15  OR921106|culex_pipiens|ita|2023-08-24                 0.69%    passed     99.76%
+  16  OR757492|culex_pipiens|ita|2023-07-24                 0.00%    passed     99.95%
+  17  OR757493|culex_pipiens|ita|2023-07-15                 0.00%    passed     99.87%
+  18  OR757494|turdus_merula|ita|2023-07-24                 0.02%    passed     99.92%
+  19  OR757495|culex_pipiens|ita|2023-07-18                 1.96%    passed     99.94%
+  20  OR757496|NA|ita|2023-07-15                            0.37%    passed     99.98%
+  21  OR757497|culex_pipiens|ita|2023-07-16                 0.01%    passed     99.96%
+  22  OR573992|branta_ruficollis|nl_li|2017-08-15           0.00%    passed     98.06%
+  23  OR141530|strix_nebulosa|de_st_ha|2015                 0.00%    passed     99.50%
+  24  OR141599|turdidae_sp|de_bb_sn|2018                    0.00%    passed     99.46%
+  25  OR141600|turdus_merula|de_nw_hg|2018                  0.00%    passed     99.43%
+  26  OR141602|turdus_merula|de_ni_ha|2018                  0.00%    passed     98.23%
+  27  OR141603|strix_nebulosa|de_ni_hr|2018                 0.00%    passed     96.04%
+  28  OR141605|strix_nebulosa|de_mv_rl|2018                 0.00%    passed     97.79%
+  29  OR166140|strix_nebulosa|de_ni_gb|2018                 0.00%    passed     94.66%
+  30  OR166141|strix_nebulosa|de_ni_hr|2018                 0.00%    passed     98.28%
+  31  OR166142|turdus_merula|de_nw_hf|2018                  0.00%    passed     98.46%
+  32  OR166149|turdus_merula|de_ni_sh|2018                  0.00%    passed     99.88%
+  33  OR166168|turdus_merula|de_by_mu|2017                  0.00%    passed     99.05%
+  34  OQ630907|strix_nebulosa|de_ni_hr|2021-08              0.00%    passed     99.30%
+  35  OP921076|turdus_merula|nl_ge|2016-1007                5.05%    passed     97.87%
+  36  OP921077|NA|nl_ge|2016-10-07                          3.69%    passed     98.23%
+  37  OP921078|turdidae_sp|nl_ut_ut|2018-08-18              4.59%    passed     99.82%
+  38  OP921079|NA|nl_ut_ut|2018-08-18                      16.38%    passed     93.28%
+  39  OP921080|NA|nl_ut_ut|2016-10-16                      20.42%    passed     93.61%
+  40  OP921081|NA|nl_ut_ut|2016-10-16                       2.77%    passed     96.34%
+  41  OP921082|NA|nl_ut_ut|2016-10-16                      24.84%    passed     59.18%
+  42  OP921083|turdus_merula|nl_ut_ut|2016-10-16           10.63%    passed     90.74%
+  43  OP734245|culex_pipiens|ita|2022-07-01                 2.46%    passed     99.69%
+  44  OP734246|culex_pipiens|ita|2022-07-29                 0.00%    passed    100.00%
+  45  OP734247|culex_pipiens|ita|2022-07-29                 9.55%    passed     99.86%
+  46  OP734248|culex_pipiens|ita|2022-07-29                 2.36%    passed     99.59%
+  47  OP734249|culex_pipiens|ita|2022-08-01                 0.90%    passed     99.99%
+  48  OP734250|culex_pipiens|ita|2022-07-29                 0.00%    passed     99.96%
+  49  OP734251|culex_pipiens|ita|2022-08-01                 0.27%    passed     99.97%
+  50  OP734252|culex_pipiens|ita|2022-08-01                 0.67%    passed     99.92%
+  51  OP734254|NA|ita|2022-08-08                            0.00%    passed     99.86%
+  52  OP734255|culex_pipiens|ita|2022-07-27                 2.37%    passed     99.69%
+  53  OP734256|culex_pipiens|ita|2022-07-29                 0.00%    passed    100.00%
+  54  OP734258|culex_pipiens|ita|2022-07-27                 3.22%    passed     97.56%
+  55  OP734261|culex_pipiens|ita|2022-07-08                 4.36%    passed     99.28%
+  56  OP555956|strix_nebulosa|bel|2017-07-10                0.00%    passed     99.77%
+  57  OP007489|strix_nebulosa|nl_ge_wg|2016-09-09           1.69%    passed     99.58%
+  58  ON813220|culex_neavei|sn_lg|2018                      4.58%    passed     97.18%
+  59  ON813221|culex_neavei|sn_lg|2019                      2.45%    passed     99.68%
+  60  ON813222|culex_neavei|sn_lg|2019                      2.46%    passed     99.91%
+  61  ON813223|culex_neavei|sn_lg|2019                      4.50%    passed     98.10%
+  62  ON813224|culex_poicilipes|sn_lg|2019                  4.14%    passed     99.03%
+  63  ON813225|culex_neavei|sn_lg|2016                      2.53%    passed     97.99%
+  64  ON813227|culex_neavei|sn_lg|2016                      0.14%    passed     97.70%
+  65  ON813236|culex_pipiens|ita|2015                       4.99%    passed     99.99%
+  66  OQ414983|culex_pipiens|ro_bi|2019-07                 52.42%    passed     57.87%
+  67  ON032477|turdus_merula|it_bo|2018-08-17               0.00%    passed     99.95%
+  68  ON032478|turdus_merula|it_tv|2018-09-03               0.00%    passed     99.78%
+  69  ON032479|turdus_merula|it_ps|2016                     0.00%    passed     99.86%
+  70  ON032482|larus_michahellis|it_rn|2021-09-08           0.00%    passed     99.99%
+  71  ON032483|turdus_merula|it_bo|2021-08-19               0.15%    passed     99.92%
+  72  ON032484|columba_palumbus|it_fe|2021-09-10            0.25%    passed     99.99%
+  73  ON755209|turdus_merula|nld|2016                       1.22%    passed     90.71%
+  74  ON755210|turdus_merula|nld|2016                       1.22%    passed     98.01%
+  75  ON755212|turdus_merula|nld|2016                       1.22%    passed     99.77%
+  76  ON755215|turdus_merula|nld|2016                       0.16%    passed     99.30%
+  77  ON755217|turdus_merula|nld|2016                       1.22%    passed     95.37%
+  78  ON755218|turdus_merula|nld|2016                       1.22%    passed     94.73%
+  79  ON755219|turdus_merula|nld|2016                       3.98%    passed     80.40%
+  80  OM202464|turdus_merula|gbr|2021-09                    0.00%    passed     97.78%
+  81  KX268472|culex_perexiguus|esp|2010                    0.00%    passed     96.28%
+  82  MT133690|turdus_merula|swe|2019-08                    0.00%    passed     99.50%
+  83  LR989886|bubo_scandiacus|de_be|2012                   0.00%    passed     97.55%
+  84  LR989889|mergellus/lophodytes/mergus_sp|de_be|2012    0.00%    passed     99.11%
+  85  LR989890|parus_major|de_be|2006                       0.00%    passed     99.97%
+  86  LR989892|larus_crassirostris|de_be|2012               0.91%    passed     98.73%
+  87  MT784898|turdus_iliacus|ita|2010                      0.00%    passed    100.00%
+  88  MT784899|turdus_merula|ita|2010                       0.03%    passed     99.85%
+  89  MW164637|culex_pipiens|it_ve|2011-08-23               0.04%    passed     99.77%
+  90  MW164638|culex_pipiens|it_vi|2011-08-24               0.00%    passed     99.81%
+  91  MW164640|culex_pipiens|it_vr|2011-09-21               0.01%    passed     99.77%
+  92  MW164643|culex_pipiens|it_ve|2012-07-24               0.00%    passed     98.89%
+  93  MW164647|culex_pipiens|it_vi|2012-08-07               0.06%    passed     99.63%
+  94  MW164664|culex_pipiens|it_ro|2013-08-13               0.01%    passed     99.99%
+  95  MW164666|culex_pipiens|it_tv|2013-08-21               0.02%    passed     99.95%
+  96  MW164672|culex_pipiens|it_vi|2014-08-22               0.14%    passed     99.61%
+  97  MW164681|culex_pipiens|it_ve|2014-09-23               0.03%    passed     99.77%
+  98  MW164688|culex_pipiens|it_pd|2015-08-06               0.00%    passed     99.62%
+  99  MW164695|turdus_merula|it_tv|2015-09-15               0.00%    passed     99.96%
+ 100  MW164699|culex_pipiens|it_ro|2016-08-01               0.00%    passed     99.59%
+ 101  MW164702|culex_pipiens|it_ro|2016-08-16               0.00%    passed    100.00%
+ 102  MW164707|culex_pipiens|it_vr|2016-09-14               0.01%    passed     99.82%
+ 103  MW164711|culex_pipiens|it_vi|2017-07-19               0.02%    passed     99.27%
+ 104  MW164714|culex_pipiens|it_vr|2017-08-02               0.00%    passed     99.58%
+ 105  MW164717|culex_pipiens|it_ud|2017-08-16               0.30%    passed     99.76%
+ 106  MW164721|culex_pipiens|it_vr|2017-08-16               0.02%    passed     99.99%
+ 107  MW164724|culex_pipiens|it_ro|2017-08-17               0.38%    passed     99.66%
+ 108  MW164732|culex_pipiens|it_vr|2018-09-06               0.01%    passed     99.52%
+ 109  MW164733|culex_pipiens|it_vi|2018-07-12               0.17%    passed     99.44%
+ 110  MW164737|culex_pipiens|it_pd|2018-07-19               0.28%    passed     99.40%
+ 111  MW164738|culex_pipiens|it_vr|2018-07-19               0.00%    passed    100.00%
+ 112  MW164739|culex_pipiens|it_vr|2018-07-19               0.01%    passed     99.97%
+ 113  MW164742|culex_pipiens|it_vr|2018-07-19               0.01%    passed     99.75%
+ 114  MW164745|culex_pipiens|it_vr|2018-07-26               0.02%    passed     99.99%
+ 115  MW164746|culex_pipiens|it_vr|2018-07-26               0.00%    passed    100.00%
+ 116  MW164750|culex_pipiens|it_ve|2018-07-31               0.40%    passed     98.95%
+ 117  MW164753|culex_pipiens|it_vi|2018-08-02               0.16%    passed     99.94%
+ 118  MW164765|culex_pipiens|it_tv|2018-08-28               0.00%    passed     99.61%
+ 119  MN989418|anatidae__duck_sp_|it_ac|2018-08-20          0.00%    passed     99.91%
+ 120  MT863562|turdus_merula|fr_vn|2018-07-24               0.00%    passed     99.90%
+ 121  MT241508|culex_univittatus|ug_ji|2012-02              0.00%    passed     97.21%
+ 122  MN813488|culex_neavei|sen|2011                        0.01%    passed     99.28%
+ 123  MN122146|turdus_merula|nl_ge_ov|2016-09-06            0.00%    passed     98.69%
+ 124  MN122154|turdus_merula|nl_nb_hs|2016-09-20            0.00%    passed     99.36%
+ 125  MN122155|turdus_merula|nl_li_bk|2016-09-21            0.00%    passed     98.42%
+ 126  MN122157|turdus_merula|nl_li_bk|2016-09-22            0.00%    passed     99.81%
+ 127  MN122163|turdus_merula|nl_ut_ut|2016-09-22            0.00%    passed     97.69%
+ 128  MN122167|turdus_merula|nl_ge_ar|2016-09-23            0.00%    passed     99.68%
+ 129  MN122168|turdus_merula|nl_ut_ut|2016-09-23            0.00%    passed     99.68%
+ 130  MN122169|turdus_merula|nl_ge_dt|2016-10-07            0.00%    passed     98.25%
+ 131  MN122171|turdus_merula|nl_fl_le|2016-10-05           12.33%    passed     92.34%
+ 132  MN122186|turdus_merula|nl_nb_os|2016-09-28            0.00%    passed     97.95%
+ 133  MN122197|turdus_merula|nl_ut_ut|2017-07-25            0.00%    passed     99.45%
+ 134  MN122207|turdus_merula|nl_fl_al|2017-09-01            2.70%    passed     98.78%
+ 135  MN122210|turdus_merula|nl_ge_ep|2017-09-15            0.00%    passed     99.58%
+ 136  MN122216|turdus_merula|nl_nh|2018-07-27               0.00%    passed     99.08%
+ 137  MN122220|turdus_merula|nl_ov_wi|2018-08-01            0.00%    passed     98.26%
+ 138  MN122223|turdus_merula|nl_ge_er|2018-08-02            0.00%    passed     99.25%
+ 139  MN122229|turdus_merula|nl_gr|2018-08-03               0.99%    passed     98.25%
+ 140  MN122233|turdus_merula|nl_dr_no|2018-08-09            0.00%    passed     98.77%
+ 141  MN122235|turdus_merula|nl_nb_bo|2018-08-14            0.00%    passed     98.21%
+ 142  MN122240|turdus_merula|nld|2018-08-16                 0.00%    passed     99.24%
+ 143  MN122250|turdus_merula|nl_nh_bl|2018-08-30            0.00%    passed     99.61%
+ 144  MN122251|turdus_merula|nl_nh_bl|2018-08-30            0.00%    passed    100.00%
+ 145  MN122252|turdus_merula|nl_nh_bl|2018-08-30            0.00%    passed     99.82%
+ 146  MK230892|turdus_merula|be_lg|2017-08                  0.00%    passed     99.06%
+ 147  MK230893|turdus_merula|be_lg|2017-08                  0.00%    passed     99.79%
+ 148  MH727238|mastomys_natalensis|sn_kg|2013-10-23         0.00%    passed     99.42%
+ 149  MH727242|rattus_rattus|sn_kg|2013-10-24               0.00%    passed     99.10%
+ 150  KX816646|turdus_merula|ita|2010-08                    1.01%    passed     99.27%
+ 151  KX816653|culex_pipiens|ita|2012-09                    0.00%    passed     99.89%
+ 152  MG461306|culex_perexiguus|isr|2015-06-30              0.00%    passed     99.99%
+ 153  MG461309|culex_pipiens|isr|2004-07-14                 0.00%    passed     99.22%
+ 154  KU573072|culex_pipiens|it_ra|2010                     0.01%    passed     98.83%
+ 155  KU573073|culex_pipiens|it_bs|2010                     0.00%    passed     99.58%
+ 156  KU573075|culex_pipiens|it_re|2010                     0.00%    passed     99.94%
+ 157  MG888044|culex_pipiens|srb|2014-08                    0.00%    passed     99.94%
+ 158  MF991886|homo_sapiens|at_wi|20170724                  0.00%    passed     99.98%
+ 159  MF063042|turdus_merula|at_no_bl|2016-09-29            0.00%    passed     99.89%
+ 160  MF063043|turdus_merula|hun|2016-09-26                 0.00%    passed    100.00%
+ 161  KY426754|turdus_merula|deu|2015-09-09                 0.00%    passed     99.37%
+ 162  KY426757|turdus_merula|deu|2016-09-23                 0.00%    passed     99.59%
+ 163  KY426760|turdus_merula|deu|2016-09-29                 0.00%    passed     99.67%
+ 164  KY426762|turdus_merula|deu|2016-09-26                 0.00%    passed     99.58%
+ 165  KY426769|turdus_merula|deu|2016-09-20                 0.00%    passed     99.02%
+ 166  KX555629|turdus_merula|ita|2010                       0.00%    passed     98.97%
+ 167  KJ438767|culex_sp|deu|2010                            0.00%    passed     98.79%
+ 168  KJ438768|culex_sp|deu|2010                            0.00%    passed     97.49%
+ 169  KJ438780|turdus_merula|deu|2010                       0.00%    passed     98.70%
+ 170  KY199556|strix_nebulosa|de_st_ha|2011                 0.00%    passed     95.90%
+ 171  KX601692|turdus_merula|fr_ar|2015-09-23               0.00%    passed     96.39%
+ 172  KY128481|strix_nebulosa|fr_ar|2016-09-22              0.06%    passed     99.71%
+ 173  KY263624|turdus_merula|be_lg|2016-10                  0.00%    passed     98.61%
+ 174  KY501101|homo_sapiens|de_nw_ko|2016-09-26            40.63%    passed     72.34%
+ 175  KT445930|culex_modestus|cz_bk|2013-08-07             59.07%    passed     86.67%
+ 176  EF206350|turdus_merula|hun|2005                       0.00%    passed     99.76%
+ 177  KF573410|culex_pipiens|es_ct_br|2006-08-22            0.00%    passed     98.11%
+ 178  KC754955|homo_sapiens|caf|2009                        0.00%    passed     96.39%
+ 179  KC754956|culex_univittatus|sn_lg|2009                 0.00%    passed     93.22%
+ 180  KC754957|culex_neavei|sn_lg|2009                      0.00%    passed     99.63%
+ 181  JQ219843|cyanistes_caeruleus|aut|2002-08-29           0.01%    passed     98.81%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                 1.95%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.064 seconds, parsimony score: 4295 (based on 2435 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -44170.285
+Optimal log-likelihood: -44170.240
+Rate parameters:  A-C: 0.76666  A-G: 8.32263  A-T: 1.19791  C-G: 0.13636  C-T: 25.38235  G-T: 1.00000
+Base frequencies:  A: 0.270  C: 0.228  G: 0.283  T: 0.218
+Proportion of invariable sites: 0.387
+Gamma shape alpha: 0.779
+Parameters optimization took 1 rounds (0.400 sec)
+Time for fast ML tree search: 5.902 seconds
+
+NOTE: ModelFinder requires 167 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 10305) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         45285.993    367 91305.986    91333.169    93963.207
+  2  GTR+F+I       44267.093    368 89270.185    89297.519    91934.647
+  3  GTR+F+G4      44195.909    368 89127.818    89155.151    91792.279
+  4  GTR+F+I+G4    44170.239    369 89078.479    89105.963    91750.181
+  5  GTR+F+R2      44180.982    369 89099.965    89127.449    91771.666
+  6  GTR+F+R3      44179.865    371 89101.731    89129.519    91787.913
+ 17  SYM+I+G4      44236.257    366 89204.513    89231.545    91854.494
+ 30  TVM+F+I+G4    44490.002    368 89716.004    89743.337    92380.465
+ 43  TVMe+I+G4     44438.182    365 89606.363    89633.245    92249.104
+ 56  TIM3+F+I+G4   44203.757    367 89141.514    89168.696    91798.735
+ 69  TIM3e+I+G4    44268.141    364 89264.282    89291.014    91899.782
+ 82  TIM2+F+I+G4   44221.088    367 89176.177    89203.359    91833.398
+ 95  TIM2e+I+G4    44283.255    364 89294.510    89321.243    91930.010
+108  TIM+F+I+G4    44232.009    367 89198.018    89225.201    91855.239
+121  TIMe+I+G4     44292.773    364 89313.545    89340.277    91949.045
+134  TPM3u+F+I+G4  44523.648    366 89779.295    89806.327    92429.276
+147  TPM3+F+I+G4   44523.648    366 89779.295    89806.327    92429.276
+160  TPM2u+F+I+G4  44543.721    366 89819.443    89846.475    92469.423
+173  TPM2+F+I+G4   44543.721    366 89819.443    89846.475    92469.423
+186  K3Pu+F+I+G4   44554.801    366 89841.602    89868.634    92491.583
+199  K3P+I+G4      44496.806    363 89719.611    89746.195    92347.871
+212  TN+F+I+G4     44237.717    366 89207.435    89234.467    91857.415
+225  TNe+I+G4      44298.348    363 89322.697    89349.280    91950.956
+238  HKY+F+I+G4    44560.560    365 89851.120    89878.002    92493.861
+251  K2P+I+G4      44502.383    362 89728.767    89755.201    92349.786
+264  F81+F+I+G4    47813.819    364 96355.639    96382.371    98991.139
+277  JC+I+G4       47685.433    361 96092.867    96119.153    98706.646
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to USUV_nflg_2024May01-mafft.fasta.model.gz
+CPU time for ModelFinder: 406.311 seconds (0h:6m:46s)
+Wall-clock time for ModelFinder: 77.581 seconds (0h:1m:17s)
+
+NOTE: 67 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.010)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 0.785 / Estimate: 0.000, 0.279 / LogL: -44195.914
+Init pinv, alpha: 0.085, 0.785 / Estimate: 0.160, 0.394 / LogL: -44182.872
+Init pinv, alpha: 0.170, 0.785 / Estimate: 0.270, 0.526 / LogL: -44175.778
+Init pinv, alpha: 0.255, 0.785 / Estimate: 0.354, 0.689 / LogL: -44171.498
+Init pinv, alpha: 0.339, 0.785 / Estimate: 0.413, 0.865 / LogL: -44169.484
+Init pinv, alpha: 0.424, 0.785 / Estimate: 0.425, 0.912 / LogL: -44169.291
+Init pinv, alpha: 0.509, 0.785 / Estimate: 0.479, 1.190 / LogL: -44169.241
+Init pinv, alpha: 0.594, 0.785 / Estimate: 0.479, 1.189 / LogL: -44169.385
+Init pinv, alpha: 0.679, 0.785 / Estimate: 0.481, 1.198 / LogL: -44169.642
+Init pinv, alpha: 0.764, 0.785 / Estimate: 0.483, 1.210 / LogL: -44169.981
+Optimal pinv,alpha: 0.479, 1.190 / LogL: -44169.241
+
+Parameters optimization took 265.063 sec
+BEST SCORE FOUND : -44169.241
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+8.728 sec.
+Total tree length: 0.437
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 1441.269 sec (0h:24m:1s)
+Total wall-clock time used: 273.830 sec (0h:4m:33s)
+
+Analysis results written to: 
+  IQ-TREE report:                USUV_nflg_2024May01-mafft.fasta.iqtree
+  Tree used for ModelFinder:     USUV_nflg_2024May01-mafft.fasta.treefile
+  Screen log file:               USUV_nflg_2024May01-mafft.fasta.log
+
+Date and Time: Mon Aug  5 17:18:56 2024
