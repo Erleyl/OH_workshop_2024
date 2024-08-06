@@ -18,15 +18,15 @@ run_and_check(
     ["apt-get", "update"],
     "Reading package lists",
     "Updating package lists...",
-    "Failed to update package lists.",
+    ":warning: Failed to update package lists.",
     "Package lists updated."
 )
 
 run_and_check(
     ["apt-get", "install", "-y", "mafft", "iqtree"],
     "Setting up",
-    "Installing MAFFT and IQ-TREE...",
-    "Failed to install MAFFT and IQ-TREE.",
+    "Installing MAFFT and IQ-TREE...":gear:,
+    ":warning: Failed to install MAFFT and IQ-TREE.",
     "MAFFT and IQ-TREE installed or already present."
 )
 
@@ -36,5 +36,5 @@ run_and_check(
     "Successfully installed",
     "Installing Biopython and TreeTime...",
     "Failed to install Biopython and TreeTime.",
-    "Biopython and TreeTime installed or already present."
+    "Biopython and TreeTime installed or already present.:tada:"
 )
