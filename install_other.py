@@ -25,7 +25,7 @@ run_and_check(
 run_and_check(
     ["apt-get", "install", "-y", "mafft", "iqtree"],
     "Setting up",
-    "Installing MAFFT and IQ-TREE...":gear:,
+    ":gear: Installing MAFFT and IQ-TREE...",
     ":warning: Failed to install MAFFT and IQ-TREE.",
     "MAFFT and IQ-TREE installed or already present."
 )
@@ -36,5 +36,5 @@ run_and_check(
     "Successfully installed",
     "Installing Biopython and TreeTime...",
     "Failed to install Biopython and TreeTime.",
-    "Biopython and TreeTime installed or already present.:tada:"
+    "Biopython and TreeTime installed or already present. :tada:"
 )
