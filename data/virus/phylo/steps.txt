@@ -1,0 +1,85 @@
+-amples Bas
+
+File					sequences
+USUV_nflg_2024May01.fasta		679
+USUV_nflg_2024May01.fasta.treefile 	679
+
+Step (randomly selecting samples based on similarity)
+
+<cd-hit -i USUV_nflg_2024May01copy.fasta -o USUV_nflg_2024May01-CDHIT-998.fasta -c 0.998>
+
+Clusters	189
+Sequences	189
+
+Alignment 
+mafft USUV_nflg_2024May01-CDHIT-998.fasta > USUV_nflg_2024May01-mafft.fasta --thread -1
+
+If not sure about the sequence orientation, use 
+<mafft-fftns --adjustdirectionaccurately USUV_nflg_2024May01-CDHIT-998.fasta > USUV_nflg_2024May01-mafft.fasta --thread -1>
+
+Building a tree to verify heterogeneity of data
+
+<iqtree -s USUV_nflg_2024May01-mafft.fasta -m MF --alrt 1000 -T 6>
+
+Best model selected by iqtree ""
+
+Making a table for time data 
+
+<cat USUV_nflg_2024May01-CDHIT-998.fasta | grep ">" > metadata.tsv
+Remove ">" and add information to columns "taxa" "source" "country" "date"
+
+Checked the data dispersion with TempEst v1.5.3
+
+Sample USUV_nflg_2024May01-mafft.fasta
+
+Now, selecting newest sequences for the exercise (merging sequences, alignment, iqtree, time tree)
+
+
+
+Samples have been selected and we have checked the heterogeneity of the data, we have decided to keep the sample "KC754958	culex_perfuscus	Central African Republic	2009"
+
+Now the exercise in Google Colab
+
+File					new name			taxa
+USUV_nflg_2024May01-CDHIT-998.fasta 	USUV_nflg_2024May01-ws.fasta 	182
+USUV_nflg_2024May01-non-selected.fasta	USUV_new_sequences-ws.fasta	12
+
+Concatenate files (easy way)
+<cat  USUV_nflg_2024May01-ws.fasta USUV_new_sequences-ws.fasta > USUV_nflg_2024-ws.fasta>
+
+The sequences have the information on the header. If you prefer to have the data in a table 
+
+<cat USUV_nflg_2024-catws.fasta | grep ">" > headers.tsv>
+<echo "taxa, source, country, date" > metadata.tsv
+<cut -c2- headers.tsv >> metadata.tsv>
+
+Now we have a metadata table accompanying out dataset 
+
+
+Alignment 
+<mafft-fftns USUV_nflg_2024-ws.fasta > USUV_nflg_2024-ws-mafft.fasta --thread -1>
+
+If not sure about the sequence orientation, use 
+<mafft-fftns --adjustdirectionaccurately USUV_nflg_2024-ws.fasta > USUV_nflg_2024-ws-mafft.fasta --thread -1>
+
+Verify alignment
+
+KC754958 
+
+Building a tree and check 
+
+<iqtree -s USUV_nflg_2024-ws-mafft.fasta -m GTR+F+I+G4 --alrt 1000 -T 6>
+
+Best model selected by iqtree "GTR+F+I+G4" #performed before if you want to run the model finder another time (not now) uncomment the next code line
+
+-alrt specifies the number of bootstrap replicates for SH-aLRT where 1000 is the minimum number recommended.
+-T number of threads (multicore CPUs)
+
+<iqtree -s USUV_nflg_2024May01-mafft.fasta -m MFP --alrt 1000 -T 6>
+
+-MFP key word stands for ModelFinder Plus, which tells IQ-TREE to perform ModelFinder and the remaining analysis using the selected model. ModelFinder computes the log-likelihoods of an initial parsimony tree for many different models and the Akaike information criterion (AIC), corrected Akaike information criterion (AICc), and the Bayesian information criterion (BIC). Then ModelFinder chooses the model that minimizes the BIC score (you can also change to AIC or AICc by adding the option -AIC or -AICc, respectively).
+
+
+
+									
+
