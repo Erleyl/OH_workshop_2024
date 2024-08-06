@@ -1,4 +1,4 @@
--amples Bas
+Samples downloaded (BO)
 
 File					sequences
 USUV_nflg_2024May01.fasta		679
@@ -41,7 +41,7 @@ Samples have been selected and we have checked the heterogeneity of the data, we
 Now the exercise in Google Colab
 
 File					new name			taxa
-USUV_nflg_2024May01-CDHIT-998.fasta 	USUV_nflg_2024May01-ws.fasta 	182
+USUV_nflg_2024May01-CDHIT-998.fasta 	USUV_nflg_2024May01-ws.fasta 	181
 USUV_nflg_2024May01-non-selected.fasta	USUV_new_sequences-ws.fasta	12
 
 Concatenate files (easy way)
