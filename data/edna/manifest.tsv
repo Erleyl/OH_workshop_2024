@@ -1,0 +1,11 @@
+sample-id,absolute-filepath,direction
+19_S19_L001,$PWD/19_S19_L001_R_001_R1.fastq,forward
+19_S19_L001,$PWD/19_S19_L001_R_001_R2.fastq,reverse
+20_S20_L001,$PWD/20_S20_L001_R_001_R1.fastq,forward
+20_S20_L001,$PWD/20_S20_L001_R_001_R2.fastq,reverse
+21_S21_L001,$PWD/21_S21_L001_R_001_R1.fastq,forward
+21_S21_L001,$PWD/21_S21_L001_R_001_R2.fastq,reverse
+27_S27_L001,$PWD/27_S27_L001_R_001_R1.fastq,forward
+27_S27_L001,$PWD/27_S27_L001_R_001_R2.fastq,reverse
+SRR27971210,$PWD/SRR27971210_R1.fastq,forward
+SRR27971210,$PWD/SRR27971210_R2.fastq,reverse
